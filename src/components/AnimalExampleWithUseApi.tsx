@@ -37,7 +37,7 @@ function AnimalExampleWithApiStatus() {
 
   useEffect(() => {
     initFetchDog()
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className='my-8 mx-auto max-w-2xl'>
